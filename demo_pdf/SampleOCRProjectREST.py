@@ -8,8 +8,9 @@ import shutil
 """
 
 # Provide your username and license code
-LicenseCode = 'tycholiu';
-UserName =  '60F2725E-DC2E-47C7-A9AF-62E8B0BAC37B';
+# read from input files
+LicenseCode = '';
+UserName =  '';
 
 try:
 	import requests
